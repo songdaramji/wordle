@@ -1,0 +1,50 @@
+header {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-top: 1px solid #d3d6da;
+  border-bottom: 1px solid #d3d6da;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.title-bar__icons-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+
+.title-bar__title {
+  margin-left: 200px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, Geneva,
+    Tahoma, sans-serif;
+}
+
+.title-bar__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-bar__info-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+
+.title-bar__info-sub {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 20px 5px 20px;
+  font-size: small;
+  margin-left: 40px;
+}
